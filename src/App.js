@@ -14,7 +14,7 @@ class App extends React.Component{
     //const termino = this.state.termino;
  
     const termino = this.state.termino;
-    const url= `https://pixabay.com/api/?key=15537150-eb9a948d3eaf9a73f3391ce52&q=${termino}&per_page=100`;
+    const url= `https://pixabay.com/api/?key=24266200-16a452c1dd5c5d7b2cb1eee1c&q=${termino}&per_page=100`;
     console.log(url);
 
     fetch(url)
